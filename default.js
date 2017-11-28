@@ -109,6 +109,7 @@ function fahrenheitActive() {
 $celsius.on("click", celsiusActive);
 $fahrenheit.on("click", fahrenheitActive);
 
+/*
 function getCurrentLocation() {
     navigator.geolocation.getCurrentPosition(function(position) {
         latitude = position.coords.latitude;
@@ -119,4 +120,4 @@ function getCurrentLocation() {
     });
 }
 
-$(document).ready(getCurrentLocation);
+$(document).ready(getCurrentLocation);*/
