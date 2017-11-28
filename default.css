@@ -7,9 +7,46 @@ blockquote {
     border-left: none;
 }
 
-#tweet {
-    width: 25px;
-    height: 25px;
+.form-control {
+    text-align: center;
+    width: 400px;
+}
+
+#icon {
+    width: 50px;
     padding: 0px;
-    margin-left: 15px;
+    margin: 0px;
+}
+
+#weather-description {
+    font-size: 14px;
+    color: grey;
+    padding: 0px;
+    margin: 4px;
+}
+
+#temp-type {
+    margin: 6px;
+}
+
+#temperature {
+    font-size: 18px;
+}
+
+#Celsius {
+    font-size: 18px;
+    color: rgb(66, 139, 202);
+}
+
+#Fahrenheit {
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+}
+
+#Celsius:hover {
+    color: rgb(66, 139, 202);
+}
+
+#Fahrenheit:hover {
+    color: rgb(66, 139, 202);
 }

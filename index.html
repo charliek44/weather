@@ -22,15 +22,23 @@
         </div>
         <br>
     </div>
-    <div class="quote-box container">
-        <blockquote>
-            <p>
-                <div id="quote-quote"></div>
-            </p>
-            <footer id="quote-author">To be determined</footer>
-        </blockquote>
+    <div class="container">
+        <p>
+            <div id="location"></div>
+        </p>
+        <p>
+            <span id="weather-description"></span>
+            <br>
+            <img src="#" id="icon">
+            <span id="temperature"></span><span id="Celsius" class="text-primary">°C</span> | <span id="Fahrenheit" class="text-muted">°F</span>
+        </p>
     </div>
-    <button class="section btn btn-default">New Quote </button><a class="twitter-share-button" href="https://twitter.com/intent/tweet" target="_blank"><img src="Twitter_Logo_WhiteOnBlue.png" id="tweet"></a>
+    <form>
+        <div>
+            <input class="mySearch form-control center-block" type="search" id="mySearch" name="q" placeholder="Enter address to check weather conditions">
+            <button class="search btn btn-default">Search</button>
+        </div>
+    </form>
     <!-- jQuery (necessary for Bootstrap 's JavaScript plugins) -->
     <script src="jquery-3.2.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
