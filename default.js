@@ -31,7 +31,8 @@ function getMapCode() {
         url: ajaxurl,
         success: function(quoteData) {
             console.log(quoteData.results[0].formatted_address);
-            $('#location').text(quoteData.results[0].formatted_address + " Latitude: " + quoteData.results[0].geometry.location.lat + " Longitude: " + quoteData.results[0].geometry.location.lng);
+            $('#location').text(quoteData.results[0].formatted_address);
+            $('#location-code').text("Latitude: " + Math.round(quoteData.results[0].geometry.location.lat, ) + " Longitude: " + Math.round(quoteData.results[0].geometry.location.lng));
             latitude = quoteData.results[0].geometry.location.lat;
             longitude = quoteData.results[0].geometry.location.lng;
             getWeather();
